@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application with API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h2>API-based Quiz</h2>
+    </div>
+    <div class="quiz-body">
+      <p id="question">Loading question...</p>
+      <div id="options"></div>
+    </div>
+    <div class="quiz-footer">
+      <button id="next-btn">Next</button>
+      <button id="restart-btn" style="display: none;">Restart</button>
+    </div>
+    <div class="result" id="result" style="display: none;">
+      <h3>Your Score: <span id="score"></span>/<span id="total-questions"></span></h3>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
